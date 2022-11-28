@@ -2,7 +2,6 @@ import express from "express";
 const app = express()
 
 function test(x: string) {
-    console.log("INput is", x);
     return x + "_output";
 }
 
